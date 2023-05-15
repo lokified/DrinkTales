@@ -92,4 +92,7 @@ dependencies {
 
     //palette
     implementation(libs.palette)
+
+    //collapsing bar
+    implementation(libs.constraintLayout)
 }

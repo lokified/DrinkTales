@@ -2,7 +2,9 @@ package com.loki.data.di
 
 import com.loki.core.Constants.BASE_URL
 import com.loki.data.CocktailApi
+import com.loki.data.repository.CocktailDetailRepositoryImpl
 import com.loki.data.repository.CocktailRepositoryImpl
+import com.loki.domain.repository.CocktailDetailRepository
 import com.loki.domain.repository.CocktailListRepository
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
@@ -24,4 +26,7 @@ val dataModule = module {
         CocktailRepositoryImpl(get())
     }
 
+    single<CocktailDetailRepository> {
+        CocktailDetailRepositoryImpl(get())
+    }
 }

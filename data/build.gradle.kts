@@ -52,4 +52,7 @@ dependencies {
     //coroutines
     implementation(libs.coroutine.core)
     implementation(libs.coroutine.android)
+
+    //gson
+    implementation(libs.google.gson)
 }

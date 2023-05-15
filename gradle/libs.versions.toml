@@ -27,6 +27,9 @@ coil = "2.2.2"
 hilt = "2.44"
 hiltNavigation = "1.0.0"
 palette = "1.0.0"
+googleGson = "2.9.0"
+collapsingToolBar = "1.1.9"
+constraintLayout = "1.1.0-alpha09"
 
 
 [libraries]
@@ -69,6 +72,7 @@ kotlinx-coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-cor
 retrofit-core = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
 retrofit-converter = { group = "com.squareup.retrofit2", name = "converter-moshi", version.ref = "retrofit" }
 okhttp3 = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okHttp3" }
+google-gson = { group = "com.google.code.gson", name = "gson", version.ref = "googleGson" }
 room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
 room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
 koin-android = { group = "io.insert-koin", name = "koin-android", version.ref = "androidKoin" }
@@ -77,6 +81,8 @@ koin-compose = { group = "io.insert-koin", name = "koin-androidx-compose", versi
 koin-test = { group = "io.insert-koin", name = "koin-test-junit4", version.ref = "testKoin" }
 splash-screen = { group = "androidx.core", name = "core-splashscreen", version.ref = "androidxCoreSplashscreen" }
 palette = { group = "androidx.palette", name = "palette", version.ref = "palette" }
+collapsingBar = { group = "com.github.germainkevinbusiness", name = "CollapsingTopBarCompose", version.ref = "collapsingToolBar" }
+constraintLayout = { group = "androidx.constraintlayout", name = "constraintlayout-compose", version.ref = "constraintLayout" }
 
 
 # Dependencies of the included build-logic
